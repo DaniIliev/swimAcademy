@@ -1,11 +1,13 @@
 import { useState } from 'react'
+import Home from './components/home/Home'
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
-    <h1>Hello swim academy!</h1>
+    <h1>New app </h1>
+      <Home /> 
     </>
   )
 }
