@@ -1,0 +1,108 @@
+* div ul li{
+    font-size: 1em;
+}
+.module{
+    background: rgb(18,169,5);
+    background: linear-gradient(0deg,rgba(59,238,184,0.8786108193277311) 25%,rgba(5,210,123,0.8786108193277311) 55%, rgba(4,203,69,0.8786108193277311) 76%,  rgba(18,169,5,1) 94%);
+    padding: 0.5em 1em 0.5em 1em;
+    width: 67em;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.modules, .modulesDr{
+    display: flex;
+    gap: 2em;
+}
+
+.obrazovanie, .priqtelPriroda, .sport{
+    border: 1px solid black;
+    padding: 0.5em 1.5em 0.5em 1.5em;
+    border-radius: 2em
+}
+.dr{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+}
+.obrazovanie h4, .priqtelPriroda h4, .sport h4{
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+.includes{
+    width: 35em;
+    margin: 0 auto;
+    padding: 1em;
+    margin-bottom: 0.3em;
+}
+
+.in{
+    margin-left: 1em;
+}
+.icon{
+    width: 4em;
+    height: 4em;
+}
+.bigIcon{
+    width: 4em;
+    height: 4em;
+}
+.obrazovanie{
+    background-color:rgb(157 210 137);
+}
+
+.priqtelPriroda{
+    background-color:  #41b773;
+}
+
+.sport{
+    background-color: rgb(81 225 179);
+}
+
+.taksa{
+    display: flex;
+    gap: 0.5em;
+}
+
+.deca{
+    width: 15em;
+    border-radius: 100%;
+}
+
+.swimmingAcademy1{
+    width: 10em;
+    height: 6.5em;
+    position: absolute;
+    border-radius: 50%;
+}
+.spisyk{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+.vyje{
+    width: 15em;
+    border-radius: 50%;
+}
+
+.spisyk div ul{
+    margin-left: 1em;
+}
+.true{
+    width: 1em;
+}
+.includes ul{
+    list-style-type: none;
+}
+.includes ul li{
+    display: flex;
+    align-items: self-start;
+    gap: 0.4em;
+}
+.obrazovanieIdr{
+    margin-bottom: 0.3em;
+}

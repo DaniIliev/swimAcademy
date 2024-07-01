@@ -1,0 +1,128 @@
+.home{
+    width: 60em;
+    margin: 0 auto;
+}
+.titlediv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.imgHome{
+    width: 60em;
+    height: 25.2em;
+}
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(3, 57, 118);  
+}
+
+.titles1{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(3, 57, 118);
+}
+.titles{
+    padding: 1em;
+    backdrop-filter: blur(20px);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.titles h1{
+    padding: 0;
+    margin: 0;
+    letter-spacing: 7px;
+    font-size: 2.5em;
+}
+
+.summer, .camp{
+color: rgb(255, 179, 0);
+}
+
+.bulgariaImg{
+    width: 10em;
+    height: 6.5em;
+    position: absolute;
+    top: 70%;
+}
+
+.swimmingAcademy{
+    width: 10em;
+    height: 6.5em;
+    position: absolute;
+    bottom: 65%;
+    right: 80%;
+    border-radius: 50%;
+}
+
+.text{
+    display: flex;
+    gap: 2em;
+    background: rgb(5,169,5);
+    background: linear-gradient(0deg,  rgba(59,238,184,0.8786108193277311) 19%, rgba(94,255,147,0.8786108193277311) 36%, rgba(87,240,111,0.8786108193277311) 48%, rgba(5,169,5,1) 71%);
+    padding: 1em 1em 0 1em; 
+}
+
+.text p {
+    font-size: 1.2em;
+    margin-left: 0.7em;
+    margin-right: 0.7em;
+}
+.info{
+    font-size: 1.3em;
+    font-weight: bold;
+    flex-direction: column;
+    display: flex;
+    gap: 0.5em;
+    justify-content: center;
+}
+
+.aboutSummerCamp{
+    background: rgb(18,169,5);
+    background: linear-gradient(0deg, rgba(18,169,5,1) 19%, rgba(4,203,69,0.8786108193277311) 48%, rgba(5,210,123,0.8786108193277311) 76%, rgba(59,238,184,0.8786108193277311) 94%);
+    display: flex;
+    justify-content: center;
+    gap: 2.5em;
+}
+.summerCamp{
+    width: 5em;
+    height: 5em;
+}
+.lagerdeca {
+    border-radius: 4em;
+    width: 22em;
+    margin-top: 0.5em;
+    padding: 0 0 1em 1em;
+}
+
+.miniIcon{
+    width: 1.2em;
+    height: 1.2em;
+}
+.email{
+    width: 1.5em;
+    height: 1.5em;
+}
+.info h4{
+    display: flex;
+    align-items: center;
+    gap: 0.3em;
+}
+.antoniya{
+    width: 11em;
+    height: 11em;
+    border-radius: 100%;
+    margin-top: 0.5em;
+
+}
+.teacher{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1em 0 0;
+}
+
+.teacher h4{
+    font-size: 1.3em;
+}

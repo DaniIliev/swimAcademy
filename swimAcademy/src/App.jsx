@@ -1,15 +1,13 @@
 import { useState } from 'react'
 import Home from './components/home/Home'
-
+import Module from './components/module/Module'
+import { Route, Routes } from "react-router-dom"
 function App() {
-
-
   return (
-    <>
-    <h1>New app </h1>
-      <Home /> 
-    </>
+    <Routes>
+      <Route path='/' element={<Home/>}/>
+      <Route path='/modules' element={<Module/>} />
+    </Routes>
   )
 }
-
 export default App
