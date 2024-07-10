@@ -1,8 +1,15 @@
 @import url(./components/home/Home.css);
 @import url(./components/module/Module.css);
+@import url(./components/dobrudzha2021/Dobrudzha.css);
+@import url(./components/navBar/NavBar..css);
 * {
   padding: 0;
   margin: 0;
+}
+
+#root{
+  height: 100vh;
+  background-image: url(../public/images/backgroundApp.jpeg);
 }
 
 html {
